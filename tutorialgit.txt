@@ -11,7 +11,8 @@ git status -> Verificar o status se tem arquivos para commitar
 git commit -m “Texto explicando o conteúdo do arquivo” -> Commitar o arquivo
 git branch –M “main” -> Alterar o nome da branch para main
 git remote add origin https:/github/phelipe35/projeto.git -> criar conexão com o github
-git push –u 
+git push –u origin main
+
 git add . -> Mandar todos os arquivos  para o stage
 
 *Criando nova branch
@@ -26,3 +27,6 @@ git push origin man -> publicando as modificações na plataforma github
 git clone link.git https:/... -> Faz o clone para a pasta do projeto
 git pull -> fazer a atualização do projeto clonado, caso o projeto original tenha sido alterado, você possa puxar
 as alterações realizadas
+
+*Removendo conexão
+git remote rm remove nomedaconexao
