@@ -1,0 +1,28 @@
+Tutorial Git
+
+Dentro da pasta do projeto, abrir com o botão direito do mouse 
+o o git bash**
+
+*Comandos no bash do git
+git --version -> Comando para verificar versão e se foi instalado corretamente
+git init   -> Inicializar o git
+git add “nome do arquivo” -> Encaminhar arquivos para stage (área de preparo para fazer o commit)
+git status -> Verificar o status se tem arquivos para commitar
+git commit -m “Texto explicando o conteúdo do arquivo” -> Commitar o arquivo
+git branch –M “main” -> Alterar o nome da branch para main
+git remote add origin https:/github/phelipe35/projeto.git -> criar conexão com o github
+git push –u 
+git add . -> Mandar todos os arquivos  para o stage
+
+*Criando nova branch
+git checkout –b “novo-botao” -> criar nova branch e mudado para a ramificação novo botão
+git checkout main -> retornar a branch main
+
+*Unindo as branchs
+git merge novo-botao -> unir as branchs
+git push origin man -> publicando as modificações na plataforma github
+
+*Clonando projeto
+git clone link.git https:/... -> Faz o clone para a pasta do projeto
+git pull -> fazer a atualização do projeto clonado, caso o projeto original tenha sido alterado, você possa puxar
+as alterações realizadas
